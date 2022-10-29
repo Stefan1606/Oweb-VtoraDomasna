@@ -1,0 +1,123 @@
+<style type='text/css'>
+.field_set1 
+{
+ border: 10px #BDB76B solid;
+}
+.field_set2 
+{
+ border: 5px #B8860B solid;
+}
+.field_set3 
+{
+ border: 5px #FFA500 solid;
+}
+.foreground_image1
+{
+    position:absolute;
+    top:700px;
+    right:300px;
+    left : 400px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.crno
+{
+    text-shadow : -4px 4px 6px dimgrey;
+    font-size: 150%;
+}
+input[type=button], input[type=submit], input[type=reset] 
+{
+  background-color: #DEB887;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.text1
+{
+    font-size: 15pt;
+}
+.foreground_image2
+{
+    position:absolute;
+    top:700px;
+    right:300px;
+    left : 1000px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.foreground_image3
+{
+    position:absolute;
+    top:1000px;
+    right:300px;
+    left : 700px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.foreground_image4
+{
+    position:absolute;
+    top:1000px;
+    right: 600px;
+    left : 1300px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.foreground_image5
+{
+    position:absolute;
+    top:80px;
+    right:650px;
+    left : 1050px;
+    z-index: 2;
+    height : 150px;
+    width : 150px;
+}
+.text
+{
+    position :absolute;
+    top: 25px;
+    left: 100px;
+    z-index: 3;
+    font-size: 20pt;
+    font-family: tahoma, geneva, sans-serif;
+}
+.font
+{
+    font-size: 20pt;
+    font-family: Garamond, serif ;
+}
+.ponudi
+{
+    font-size: 20pt;
+    font-family: 'Brush Script MT', cursive;
+}
+.boja1
+{
+    color:purple;
+    font-size : 30pt;
+}
+.boja2
+{
+    color:DarkCyan;
+    font-size : 10pt;
+}
+.boja3
+{
+    color:MediumTurquoise;
+    font-size : 10pt;
+}
+.boja4
+{
+    color:SkyBlue;
+    font-size : 5pt;
+}
+</style>

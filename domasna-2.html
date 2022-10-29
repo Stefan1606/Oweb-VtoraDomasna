@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+<title>Online HTML Editor</title>
+<head>
+<meta charset = "utf-8" >
+<style type='text/css'>
+.field_set1 
+{
+ border: 10px #BDB76B solid;
+}
+.field_set2 
+{
+ border: 5px #B8860B solid;
+}
+.field_set3 
+{
+ border: 5px #FFA500 solid;
+}
+.foreground_image1
+{
+    position:absolute;
+    top:700px;
+    right:300px;
+    left : 400px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.crno
+{
+    text-shadow : -4px 4px 6px dimgrey;
+    font-size: 150%;
+}
+input[type=button], input[type=submit], input[type=reset] 
+{
+  background-color: #DEB887;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+}
+.text1
+{
+    font-size: 15pt;
+}
+.foreground_image2
+{
+    position:absolute;
+    top:700px;
+    right:300px;
+    left : 1000px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.foreground_image3
+{
+    position:absolute;
+    top:1000px;
+    right:300px;
+    left : 700px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.foreground_image4
+{
+    position:absolute;
+    top:1000px;
+    right: 600px;
+    left : 1300px;
+    z-index: 2;
+    height : 250px;
+    width : 250px;
+}
+.foreground_image5
+{
+    position:absolute;
+    top:80px;
+    right:650px;
+    left : 1050px;
+    z-index: 2;
+    height : 150px;
+    width : 150px;
+}
+.text
+{
+    position :absolute;
+    top: 25px;
+    left: 100px;
+    z-index: 3;
+    font-size: 20pt;
+    font-family: tahoma, geneva, sans-serif;
+}
+.font
+{
+    font-size: 20pt;
+    font-family: Garamond, serif ;
+}
+.ponudi
+{
+    font-size: 20pt;
+    font-family: 'Brush Script MT', cursive;
+}
+.boja1
+{
+    color:purple;
+    font-size : 30pt;
+}
+.boja2
+{
+    color:DarkCyan;
+    font-size : 10pt;
+}
+.boja3
+{
+    color:MediumTurquoise;
+    font-size : 10pt;
+}
+.boja4
+{
+    color:SkyBlue;
+    font-size : 5pt;
+}
+</style>
+<fieldset class ="field_set1 ">
+<tr bgcolor="white"> 
+<th>
+<tittle>
+<strong class="boja1">
+Dado Tea Lunch Special
+</strong>     
+</tittle>
+<legend>
+<img src ="https://img1.wsimg.com/isteam/ip/e3b3beb9-4229-4b74-8f6c-8e8a147cf140/b1825101ea2ffd59649e8f66c9cbf9b7.jpg " class = "foreground_image5">
+</legend>
+</head>
+<body>
+<P class="crno">
+Monday through friday
+</P>
+<P class="crno">
+11am-3pm
+</P>
+<P class="crno">
+$9.95 plus tax
+<P class ="crno">
+Inlcudes sandwich, snack and drink.    
+</P>
+</P>
+</th>
+</tr>
+
+<fieldset  class="field_set2 ">
+        <legend  >
+            <h2 >
+            order information    
+            </h2>
+        </legend>
+        <t class="font">Name</t>
+        <input name = "name" 
+        type = "text"
+        size = "25"
+        maxlength= "30"
+        >
+    <p> </p>
+    <t class="ponudi"> <input  type="radio" id="name" name="name" value="here"  /> here  </t>
+    <p> </p>
+     <t class="ponudi"> <input type="radio" id="name" name="name" value="to go" /> to go  </t> 
+</fieldset>
+<fieldset  class="field_set2 ">
+        <legend >
+            <h2>
+            Sandwiches    
+            </h2>
+        </legend>
+        <t class="font"> Monday </t>
+        <p> </p>
+       <t class="ponudi">  <input type="radio" id="Monday" name="Monday" value="Tomato Mozzarella" />Tomato Mozzarella </t>
+        <p> </p>
+       <t class="ponudi"> <input type="radio" id="Monday" name="Monday" value="Chicken Salad" /> Chicken Salad  </t>
+        <p></p>
+        <t class="font"> Tuesday </t>
+        <p> </p>
+         <t class="ponudi"> <input type="radio" id="Tuesday" name="Tuesday" value="Greek Salad Wrap" />Greek Salad Wrap </t>
+        <p> </p>
+         <t class="ponudi"> <input type="radio" id="Tuesday" name="Tuesday" value="Toto Wrap" /> Toto Wrap </t>
+        <P></P>
+        <t class="font"> Wednesday </t>
+        <p></p>
+         <t class="ponudi"> <input type="radio" id="Wednesday" name="Wednesday" value="Red Pepper Hummus" />Red Pepper Hummus </t>
+        <p></p>
+        <t class="ponudi"> <input type="radio" id="Wednesday" name="Wednesday" value="Roasted Turkey" />Roasted Turkey </t>
+        <p></p>
+        <t class="font"> Thursday </t>
+        <p> </p>
+        <t class="ponudi"> <input type="radio" id="Thursday" name="Thursday" value="Carrot-Ginger Hummus Wrap" />Carrot-Ginger Hummus Wrap </t>
+        <p> </p>
+        <t class="ponudi"> <input type="radio" id="Thursday" name="Thursday" value="Egg salad" /> Egg Salad </t>
+        <P></P>
+        <t class="font"> Friday </t>
+        <p></p>
+         <t class="ponudi"> <input type="radio" id="friday" name="friday" value="Dado Wrap" />dado Wrap </t>
+        <p> </p>
+        <t class="ponudi"> <input type="radio" id="friday" name="friday" value="tuna salad" /> tuna Salad </t>
+        <P></P>
+        <hr>
+        <input type="checkbox" id="Gluten Free Bread" name="Gluten Free Bread" value="Gluten Free Bread"> 
+        <t class="ponudi"> <label for="Gluten Free Bread"> Gluten Free Bread (75e extra) </label><br> </t>
+        <legend>
+            <img src = "https://fastly.4sqi.net/img/general/600x600/77115943_0cQUnvqlr_yCosB1W6RoUO6IWb7mCPlH4o5Xd799H3w.jpg " class ="foreground_image1">
+            <img src = "https://thescranline.com/wp-content/uploads/2022/02/crispy-chicken-burger-WEB-01.jpg " class ="foreground_image2">
+            <img src = "https://images.immediate.co.uk/production/volatile/sites/30/2020/11/Chicken-wraps-3314ddd.jpg" class ="foreground_image3">
+            <img src = "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2019/04/Egg-Salad-4.jpg" class ="foreground_image4">
+        </legend>
+</fieldset>
+<fieldset class="field_set2 ">
+    <legend >
+    <h2> Snack </h2>
+    </legend>
+        <t class="font"> Snacks </t>
+        <p> </p>
+        <t class="ponudi"> <input type="radio" id="Snacks" name="Snacks" value="Apple" /> Apple </t>
+        <p> </p>
+        <t class="ponudi"> <input type="radio" id="Snacks" name="Snacks" value="Banana" /> Banana </t>
+        <p> </p>
+        <t class="ponudi"> <input type="radio" id="Snacks" name="Snacks" value="Potato Chips" /> Potato Chips </t>
+</fieldset>
+<fieldset  class ="field_set3">
+<legend class="boja2">
+    <h2> Drink </h2>
+</legend>
+    <p class ="text1">
+    <t class="font"> Drinks </t>
+    <select class="text1">
+        <option value ="hot black tea - keemun"> hot black tea - keemun </option>
+        <option value ="Coca Cola" > Coca Cola </option>
+        <option value ="Sprite"> Sprite </option>
+        <option value ="Pepsi"> Pepsi </option>
+        <option value ="Fanta"> Fanta </option>
+        <option value ="Skopsko"> Skopsko </option>
+        <option value ="Zlaten Dab"> Zlaten Dab </option>
+    </select>
+    </p>
+    <hr class="boja2">
+    <input type="checkbox" id="Drinks" name="Large Drink" value="Large Drink">
+  <label for="Large Drink" class="text1"> Large Drink(75e extra) </label><br>
+</fieldset>
+<br></br>
+<t> <input type="submit" value="Place order"> </t>
+</fieldset>
+</body>
+
